@@ -12,6 +12,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 <meta name="theme-color" content="#222">
 
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
 
 
 
@@ -56,7 +71,11 @@
   
 
   
+    
+      
+    
 
+    
   
 
   
@@ -65,8 +84,16 @@
 
   
     
+      
     
-    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+
+    
+  
+
+  
+    
+    
+    <link href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic|Roboto Slab:300,300italic,400,400italic,700,700italic|Roboto Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
@@ -79,7 +106,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Hexo, NexT,realchoumi,膜蛤" />
 
 
 
@@ -88,7 +115,7 @@
 
 
 
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.2" />
+  <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico?v=5.1.2" />
 
 
 
@@ -98,7 +125,7 @@
 <meta name="description" content="池塘的水满了，雨也停了，大哥哥好不好，咱们去捉泥鳅。       五音不全的事&amp;emsp;&amp;emsp;捉泥鳅真的很好听，谢谢。  那些唱歌好听的人&amp;emsp;&amp;emsp;认识好多唱歌好听的妙人，没听过他们唱儿歌，真遗憾。  儿歌怎么了&amp;emsp;&amp;emsp;儿歌也很殇情啊我觉得，比一些情歌不知道高到哪里去了，有一首儿歌《读书郎》，如果仔细听过后半段，会有很多思考。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/08/30/hello-world/index.html">
+<meta property="og:url" content="https://realchoumi.com/2017/08/30/hello-world/index.html">
 <meta property="og:site_name" content="Record">
 <meta property="og:description" content="池塘的水满了，雨也停了，大哥哥好不好，咱们去捉泥鳅。       五音不全的事&amp;emsp;&amp;emsp;捉泥鳅真的很好听，谢谢。  那些唱歌好听的人&amp;emsp;&amp;emsp;认识好多唱歌好听的妙人，没听过他们唱儿歌，真遗憾。  儿歌怎么了&amp;emsp;&amp;emsp;儿歌也很殇情啊我觉得，比一些情歌不知道高到哪里去了，有一首儿歌《读书郎》，如果仔细听过后半段，会有很多思考。">
 <meta property="og:locale" content="zh-Hans">
@@ -115,7 +142,7 @@
     root: '/',
     scheme: 'Muse',
     version: '5.1.2',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"hide","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn"}},
@@ -135,7 +162,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/08/30/hello-world/"/>
+  <link rel="canonical" href="https://realchoumi.com/2017/08/30/hello-world/"/>
 
 
 
@@ -292,7 +319,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/30/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://realchoumi.com/2017/08/30/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="我爱捉泥鳅">
@@ -383,6 +410,24 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    我爱捉泥鳅
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://realchoumi.com/2017/08/30/hello-world/" title="Hello World">https://realchoumi.com/2017/08/30/hello-world/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
       
@@ -449,6 +494,8 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
     
     <div class="sidebar-inner">
 
@@ -555,6 +602,7 @@
       
 
       
+  
 
     </div>
   </aside>
@@ -584,6 +632,33 @@
   <span class="post-meta-divider">|</span>
 
   <div class="theme-info">主题 &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.2</div>
+<div id="days"></div>
+</script>
+<script language="javascript">
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("08/31/2017 18:43:10");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=setzero(Math.floor(e_hrsold));
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+seconds=setzero(Math.floor((e_minsold-minsold)*60));
+document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+}
+function setzero(i){
+if (i<10)
+{i="0" + i};
+return i;
+}
+show_date_time();
+</script>
 
 
         
@@ -627,6 +702,8 @@
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
         
+          <span id="scrollpercent"><span>0</span>%</span>
+        
       </div>
     
 
@@ -653,9 +730,6 @@
 
 
 
-  
-  
-
 
 
 
@@ -681,12 +755,6 @@
 
   
   <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-
-  
-  <script type="text/javascript" src="/lib/three/three.min.js"></script>
-
-  
-  <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
 
 
   
@@ -764,6 +832,13 @@
   
 
   
+
+  <!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+
+   <canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+   <script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+   <script type="text/javascript" src="/js/src/fireworks.js"></script>
 
 </body>
 </html>
