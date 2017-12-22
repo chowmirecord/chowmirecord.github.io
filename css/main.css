@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff3337;
+  background: #ff6aaa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2736,7 +2736,7 @@ embed {
   margin-bottom: 0px;
   padding: 5px;
   background-color: rgba(255,255,255,0.75);
-  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.15);
+  box-shadow: 0px 10px 10px 0px rgba(161,102,171,0.15);
 }
 .menu .menu-item a {
   font-size: 15px;
@@ -2747,7 +2747,7 @@ embed {
 .menu .menu-item a:hover {
   border-bottom-color: rgba(161,102,171,0);
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 100px) {
   body {
     background-image: url("/images/background.png");
     background-repeat: no-repeat;
@@ -2802,6 +2802,13 @@ embed {
 }
 .pagination .space {
   color: #fff;
+}
+.footer {
+  line-height: 1.5;
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #a166ab;
+  box-shadow: 0px -10px 10px 0px rgba(0,0,0,0.1);
 }
 .post-widgets {
   padding-top: 0px;
@@ -2986,11 +2993,52 @@ img:hover {
     padding: 96px 15px 20px 15px;
   }
 }
+h2.about-title {
+  border-left: none !important;
+  margin-left: 0px !important;
+  padding-left: 0px !important;
+  text-align: center;
+  background-image: linear-gradient(90deg, #a166ab 0%, #a166ab 40%, #ef4e7b 45%, #f37055 50%, #ef4e7b 55%, #a166ab 60%, #a166ab 100%);
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  user-select: none;
+}
+::selection {
+  background-color: #ef4e7b;
+  color: #fff;
+}
+*::-moz-selection {
+  background-color: #ef4e7b;
+  color: #fff;
+}
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
 }
 .with-love {
   color: #f37055;
+}
+h2.love {
+  border-left: none;
+  color: #ff71a8;
+  -webkit-text-fill-color: unset;
+}
+blockquote.question {
+  color: #555;
+  border-left: 4px solid #1098ad;
+  background-color: #e3f2fd;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin-bottom: 20px;
+}
+span#inline-toc {
+  display: inline-block;
+  border-radius: 80% 100% 90% 20%;
+  background-color: #e3f2fd;
+  color: #555;
+  padding: 0.05em 0.4em;
+  margin: 2px 5px 2px 0px;
+  line-height: 1.5;
 }
 @media (max-width: 1023px) {
   .container {
