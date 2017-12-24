@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #17ff42;
+  background: #1c8a87;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2379,6 +2379,13 @@ pre .javascript .function {
 .site-pv .busuanzi-value,
 .page-pv .busuanzi-value {
   margin: 0 5px;
+}
+.site-uv {
+  margin-right: 10px;
+}
+.site-uv::after {
+  content: "|";
+  padding-left: 10px;
 }
 .page-archive .archive-page-counter {
   position: relative;
@@ -3108,6 +3115,13 @@ span#inline-toc {
   .menu .menu-item {
     margin: 0px 10px !important;
   }
+}
+.post.post-type-normal {
+  -webkit-transform: inherit !important;
+  -moz-transform: inherit !important;
+  -ms-transform: inherit !important;
+  -o-transform: inherit !important;
+  transform: inherit !important;
 }
 @-moz-keyframes heartAnimate {
   0%, 100% {
