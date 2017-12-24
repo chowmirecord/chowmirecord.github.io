@@ -1822,7 +1822,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2030ff;
+  background: #17ff42;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2747,7 +2747,7 @@ embed {
 }
 @media screen and (min-width: 100px) {
   body {
-    background-image: url("/images/background.png");
+    background-image: url("https://s1.ax1x.com/2017/12/24/vML7Q.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
